@@ -5,3 +5,17 @@
 .text-secondary {
     color: #0284d0;
 }
+
+/* Buttons */
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #fff;
+    background: #28a745;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    opacity: 0.9;
+}
