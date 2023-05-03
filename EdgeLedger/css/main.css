@@ -73,11 +73,23 @@ img {
     height: 100%;
     padding: 0 20px;
 }
-.hero h1 {
+.hero .content h1 {
     font-size: 55px;
 }
 .hero p {
     font-size: 23px;
     max-width: 600px;
     margin: 20px 0 30px;
+}
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.hero * {
+    z-index: 10;
 }
